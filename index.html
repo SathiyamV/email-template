@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            background-color:white ;
+            /* margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 0%; */
+            margin: 0%;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 50%;
+            grid-template-rows: 1fr;
+            justify-content: center;
+        }
+        
+        .top{
+            background-color: #9ccc5e;
+        }
+        header{
+            position: relative;
+            /* margin-left: 30%; */
+            padding-left: 20%;
+            
+        }
+        
+        .title{
+            color: #199e59;
+            font-size: x-large;
+            padding-left: 10%;
+        }
+        .about{
+            color: white;
+            font-weight: 200;
+            font: 10px sans-serif;
+            margin-left: 5%;
+            text-align: justify;
+        
+        }
+        .hand{
+            position:relative;
+            padding-left: 20%;
+            margin-left: 34%;
+            margin-top: -40%;
+            }
+        
+        /* .dbutton {
+            background-color: black;
+        
+        } */
+        .hand-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: 0;
+        }
+        
+        .dbutton{
+            font-size: larger;
+            border-width: 100px;
+            
+        }
+        .btn {
+        
+          position: absolute;
+          left: 40%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          background-color: black;
+          color: white;
+          font-size: 12px;
+          padding: 10px 20px;
+          border: none;
+          cursor: pointer;
+          border-radius: 15px;
+          text-align: center;
+          font-family: 'Times New Roman', Times, serif;
+        }
+        .btn:hover {
+            background-color: gray;
+            color: white;
+        }
+        
+        .bottom{
+            margin-top: 10%;
+            text-align: center;
+        }
+        .para {
+            margin-bottom: 10%;
+        }
+        .btn2 {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          background-color: black;
+          color: white;
+          font-size: 12px;
+          padding: 10px 20px;
+          border: none;
+          cursor: pointer;
+          border-radius: 15px;
+          text-align: center;
+          font-family: 'Times New Roman', Times, serif;
+        }
+        .btn2:hover {
+            background-color: gray;
+            color: white;
+        }
+        
+        .title3 {
+            margin-top: 20%;
+        }
+        
+        
+        
+        footer{
+            display: grid;
+            grid-column: 10%;
+            text-align: center;
+            background-color:#9ccc5e ;
+        }
+        
+        @media (min-width: 800px) {
+            .social{
+                position: relative;
+            }
+            .fb{
+                display: grid;
+                position: absolute;
+                justify-content: start;
+            }
+            .linkedin{
+                display: grid;
+                justify-content: end;
+            }
+            .insta{
+                display: grid;
+                justify-content: start;
+            }
+            .twitter{
+                display: grid;
+                bottom: 0%;
+                
+                position: absolute;
+                left: 79%;
+                text-align: center;
+            }
+        
+        }
+        
+        
+        @media (max-width: 600px) {
+            .hand {
+            margin-top: 80px;
+            margin-left: 0px;
+            margin-right: 100px;
+            margin-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 80px;
+            }
+            .hand-fit {
+                max-width: 1000px;
+                max-height: auto;
+                margin: 0;
+            }
+            .btn{
+                margin-top: 5%;
+            }
+            .title3{
+                margin-top: 50%;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <header>
+                <div id="logo">
+                    <img class="logo-fit" src="images\GitHub-Mark.png" width="50" height="60">
+                    <h3>SathiyamV</h3>
+                </div>
+            </header>
+            <div class="title">
+                <h1>Let's <br>
+                    Be <br>
+                    Social</h1>
+            </div>
+            <div class="about">
+                <h3>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit <br>volutpat, neque amet.</h3>
+            </div>
+
+            <div class="dbutton">
+                <h2 class="btn">DISCOVER</h2>
+            </div>
+
+        </div>
+        <div class="bottom">
+            <div class="hand">
+                <img class="hand-fit" src="images\Hand-Hero.png" width=260px>
+            </div>
+            <div class="welcome">
+                <h2>Welcome</h2>
+            </div>
+            <div class="title2">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
+            </div>
+            <div class="para">
+                <p>Aliquam purus commodo magnis ipsum dolor sit amet, consectetur adipiscing elit habitasse est in
+                    rhoncus
+                    libero ut. Aenean viverra fermentum, volutpat, neque amet, justo.Socis natoqu eagnis dist mte
+                    dulmuese.
+                </p>
+            </div>
+            <div class="readbtn">
+                <h2 class="btn2">Read More</h2>
+            </div>
+            <div class="title3">
+                <h2>Follow Me</h2>
+            </div>
+            <div class="para2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam purus commodo magnis habitasse est.
+                </p>
+            </div>
+            <div class="social">
+                <div class="fb">
+                    <a href="#"><img class="social-fit" src="images\face-10.png" width=150px></a>
+                    
+                    <h3>Follow Me on <br>Facebook</h3>
+                    <h2>@SathiyamV</h2>
+                </div>
+                <div class="linkedin">
+                    <a href="#"><img class="social-fit" src="images\linked-10.png" width=150px></a>
+                    <h3>Follow Me on<br> Linkedin</h3>
+                    <h2>@SathiyamV</h2>
+                </div>
+                <div class="insta">
+                    <a href="#"><img class="social-fit" src="images\insta-10.png" width=150px></a>
+                    <h3>Follow Me on <br>Instagram</h3>
+                    <h2>@SathiyamV</h2>
+                </div>
+                <div class="twitter">
+                    <a href="#"><img class="social-fit" src="images\twit-10.png" width=150px></a>
+                    <h3>Follow Me on <br>Twitter</h3>
+                    <h2>@SathiyamV</h2>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="aboutfoot">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet, commodo magnisadipiscing.<br>
+
+                    Aenean eget scelerisque magna.<br>
+
+                    Cras interdum do mattis eugravid</p>
+            </div>
+            <div class="contact">
+                <h2>contact</h2>
+                <p>Your Street 12, 34567 AB City<br>
+
+                    info@example.com<br>
+
+                    (+1) 123 456 789</p>
+            </div>
+        </footer>
+
+    </div><!--end container class-->
+
+</body>
+
+</html>
